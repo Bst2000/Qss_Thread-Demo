@@ -1,0 +1,30 @@
+QPushButton {
+    background-color: #add8e6; /* 浅蓝色背景 */
+    border: 1px solid #87CEEB; /* 浅蓝色边框，与背景相近但稍深 */
+    color: black; /* 黑色文本 */
+    padding: 5px;
+    border-radius: 3px;
+    font: bold 14px;
+}
+
+QPushButton:hover {
+    background-color: #00BFFF; /* 亮蓝色背景，与正常状态对比明显 */
+    border: 1px solid #007BFF; /* 深蓝色边框 */
+}
+
+QPushButton:pressed {
+    background-color: #9F9F00; /* 008000 绿色背景，表示按下 */
+    border: 1px solid #2E8B57; /* 深绿色边框 */
+}
+
+/* 有选中属性并被选中时的颜色 */
+QPushButton:checked {
+border: 2px solid #0000FF;
+background-color: #FFFF00;
+}
+
+QPushButton:disabled {
+    background-color: #bfbfbf; /* 灰色背景，表示禁用 */
+    color: #777777; /* 灰色文本 */
+    border: 1px solid #808080; /* 灰色边框 */
+}
